@@ -4,6 +4,7 @@ import logging
 from base.basepage import BasePage
 
 class LoginPage(BasePage):
+    print("git stiff")
 
     log = cl.customLogger(logging.DEBUG)
 
@@ -11,7 +12,7 @@ class LoginPage(BasePage):
         super().__init__(driver)
         self.driver = driver
         self.nav = NavigationPage(driver)
-
+    
     # Locators
     _login_link = "Login"
     _email_field = "user_email"
