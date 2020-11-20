@@ -5,6 +5,7 @@ from base.basepage import BasePage
 
 class LoginPage(BasePage):
     print("git stiff")
+    print("from gitx")
 
     log = cl.customLogger(logging.DEBUG)
 
