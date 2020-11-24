@@ -5,6 +5,8 @@ import pytest
 import utilities.custom_logger as cl
 import logging
 
+print("added branch")
+print("so i added another print statement")
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 class LoginTests(unittest.TestCase):
     log = cl.customLogger(logging.DEBUG)
